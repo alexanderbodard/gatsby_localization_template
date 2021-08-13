@@ -3,5 +3,13 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "gatsby_localization_template",
   },
-  plugins: [],
+  plugins: [
+  {
+      resolve: 'gatsby-plugin-i18n',
+      options: {        
+        langKeyDefault: 'en',
+        useLangKeyLayout: false
+      }
+    }
+  ]
 };
