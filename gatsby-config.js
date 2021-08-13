@@ -3,6 +3,7 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "gatsby_localization_template",
   },
+  pathPrefix: "/gatsby_localization_template",
   plugins: [
   {
       resolve: 'gatsby-plugin-i18n',
