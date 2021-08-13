@@ -1,0 +1,22 @@
+{
+  "name": "gatsby_localization_template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "gatsby_localization_template",
+  "author": "Alexander",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.11.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
